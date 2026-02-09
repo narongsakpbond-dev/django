@@ -13,7 +13,13 @@ python 1_find_tailing_zero\main.py
  
 ### Input
  
-- integer (เช่น `7`)
+- [Example 1]
+input = 7
+output = 1
+
+- [Example 2]
+input = -10
+output = number can not be negative
  
 ## 2) Index of max
  
@@ -25,6 +31,15 @@ python 1_find_tailing_zero\main.py
 ```bat
 python 2_index_of_max\main.py
 ```
+### Input
+ 
+- [Example 1]
+input = [1,2,1,3,5,6,4]
+output = 5
+
+- [Example 2]
+input = []
+output = list can not blank
  
 ## 3) Number to Thai
  
@@ -39,7 +54,7 @@ python 3_number_to_thai\main.py
  
 ### Input
  
-- integer (รองรับรูปแบบมี comma เช่น `1,234`)
+- integer (รองรับรูปแบบมี comma เช่น `1,221`)
  
 ## 4) Number to Roman
  
@@ -51,3 +66,12 @@ python 3_number_to_thai\main.py
 ```bat
 python 4_number_to_roman\main.py
 ``` 
+### Input
+ 
+- [Example 1]
+input = 101
+output = CI
+
+- [Example 2]
+input = -1
+output = number can not less than 0
